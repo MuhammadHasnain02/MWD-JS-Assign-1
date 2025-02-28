@@ -11,17 +11,21 @@ var mod = num1 % num2
 document.write("<h1>JAVASCRIPT Assignment</h1>")
 
 document.write("<h2>[ i ]</h2>")
-document.write(`<h3>1. Addition of ${num1} and ${num2} is ${add}</h3>`)
-document.write(`<h3>2. subtraction of ${num1} and ${num2} is ${sub}</h3>`)
-document.write(`<h3>3. Multiplication of ${num1} and ${num2} is ${mul}</h3>`)
-document.write(`<h3>4. Division of ${num1} and ${num2} is ${div}</h3>`)
-document.write(`<h3>5. Modulus of ${num1} and ${num2} is ${mod}</h3>` + "<br><br>")
+document.write(`<h3>1. Addition of ${num1} and ${num2} is ${add}</h3><br>`)
+document.write(`<h3>2. subtraction of ${num1} and ${num2} is ${sub}</h3><br>`)
+document.write(`<h3>3. Multiplication of ${num1} and ${num2} is ${mul}</h3><br>`)
+document.write(`<h3>4. Division of ${num1} and ${num2} is ${div}</h3><br>`)
+document.write(`<h3>5. Modulus of ${num1} and ${num2} is ${mod}</h3><br><br>`)
 
 // Task 2
-
 document.write("<h2>[ ii ]</h2>")
-document.write(`<h3>1. Value after variable declaration is undefined </h3>`)
-document.write(`<h3>2. Initial value is ${num1} </h3>`)
-document.write(`<h3>3. Value after increment is ${++num1} </h3>`)
-document.write(`<h3>4. Value after decrement is ${--num1} </h3>`)
-document.write(`<h3>5. The remainder is ${--num1} </h3>`)
+document.write(`<h3>1. Value after variable declaration is undefined </h3><br>`)
+document.write(`<h3>2. Initial value is ${num1}</h3><br>`)
+document.write(`<h3>3. Value after increment is ${++num1}</h3><br>`)
+document.write(`<h3>4. Value after decrement is ${--num1}</h3><br>`)
+var remainder = num1 % num2
+document.write(`<h3>5. The remainder is ${remainder}</h3>`)
+
+// Task 3
+
+
